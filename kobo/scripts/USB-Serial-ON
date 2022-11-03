@@ -1,0 +1,3 @@
+#!/bin/sh
+
+insmod /drivers/mx6sll-ntx/usb/gadget/g_serial.ko insmod /drivers/mx6sll-nt

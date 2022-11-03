@@ -1,0 +1,6 @@
+#!/bin/sh
+
+SCRIPT_PATH=`readlink -f "$0"`
+SCRIPT_DIR=`dirname "$SCRIPT_PATH"`
+
+source $SCRIPT_DIR/sub/connect.sh 5C:B6:CC:00:3F:A1

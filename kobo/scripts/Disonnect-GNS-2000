@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/bin/bluetoothctl disconnect 5C:B6:CC:00:3F:A1
+/bin/bluetoothctl power off
