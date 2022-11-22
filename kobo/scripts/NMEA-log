@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd /mnt/onboard/XCSoarData/logs
+
+stty -F /dev/rfcomm0  raw
+stty -F /dev/rfcomm0 19200
+
+sdptool add --channel 2 SP
+
+nohup cat /dev/rfcomm0 > nmea-log.nmea &
