@@ -9,14 +9,14 @@ evdev-dump "$device" | while read line; do
   case $line in
   $key_f23)
     value=$(cat /sys/class/backlight/mxc_msp430.0/brightness)
-    if [[ $value -lt 100 ]]; then
+    if [ $value -lt 100 ]; then
       value=$((value + 10))
       echo $value >/sys/class/backlight/mxc_msp430.0/brightness
     fi
     ;;
   $key_f24)
     value=$(cat /sys/class/backlight/mxc_msp430.0/brightness)
-    if [[ $value -ge 10 ]]; then
+    if [ $value -ge 10 ]; then
       value=$((value - 10))
       echo $value >/sys/class/backlight/mxc_msp430.0/brightness
     fi
