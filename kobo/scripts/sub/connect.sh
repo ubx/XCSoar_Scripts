@@ -8,7 +8,6 @@ done
 /bin/dbus-daemon --system &
 
 insmod /drivers/mx6sll-ntx/wifi/sdio_bt_pwr.ko
-insmod /drivers/mx6sll-ntx/wifi/sdio_bt_pwr.ko
 
 model=`dd if=/dev/mmcblk0 bs=8 count=1 skip=64`
 if [ `expr substr $model 1 7` = SN-N418 ] ; then # Libra 2
