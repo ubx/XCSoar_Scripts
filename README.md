@@ -1,7 +1,7 @@
 # XCSoar scripts for Kobo Libra 2 and Clara 2E
 Scripts for the Tools Menu for the Libra 2 and Clara 2E (and may be for other Kobo with Bluetooth).
 
-Copy the directory ``kobo`` to the Kobo directory ``/mnt/onboard/XCSoarData/` 
+Copy the directory ``kobo`` to the Kobo directory ``/mnt/onboard/XCSoarData/`` 
 
 ## ``kobo/scripts/``
 Contains scripts for Bluetooth connection, USB Serial connection and debugging aids.
