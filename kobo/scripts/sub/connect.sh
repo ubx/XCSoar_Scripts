@@ -31,6 +31,13 @@ bluetoothctl power on
 
 sleep 3
 
+## DO THIS ONCE MANUALLY
+## bluetoothctl
+##   pair $1
+##   yes
+##
+## bluetoothctl trust $1
+
 bluetoothctl connect $1
 
 sleep 3

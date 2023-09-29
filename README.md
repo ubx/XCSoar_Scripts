@@ -3,6 +3,11 @@ Scripts for the Tools Menu for the Libra 2 and Clara 2E (and may be for other Ko
 
 Copy the directory ``kobo`` to the Kobo directory ``/mnt/onboard/XCSoarData/`` 
 
+**NOTE on pairing Bluetooth device**
+
+Pairing Bluetooth device must be done once manually, see
+[Bluetoothctl: Management of Bluetooth Devices in Linux](https://smarttech101.com/bluetoothctl-management-of-bluetooth-devices-in-linux/)
+
 ## ``kobo/scripts/``
 Contains scripts for Bluetooth connection, USB Serial connection and debugging aids.
 
