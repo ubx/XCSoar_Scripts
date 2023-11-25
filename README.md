@@ -19,4 +19,5 @@ Called by Kobo Menu launch. Here used to turn off the Kobo front (blinking) LED.
 if it exists (see below).
 
 ## ``usr/set_brightness.sh``
-For Kobo Libra 2. With the 2 buttons Up and Down, you can increase or decrease the screen brightness.
+For Kobo Libra 2. With the 2 buttons Up and Down, you can increase or decrease the screen brightness. \
+Copy ``usr/set_brightness.sh`` to the Kobo directory ``/usr/``
