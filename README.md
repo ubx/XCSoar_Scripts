@@ -14,7 +14,7 @@ Contains scripts for Bluetooth connection, USB Serial connection and debugging a
 ### ``kobo/scripts/sub/``
 Contains subprogram used by the scrips in the parent directory. Also, a way to 'hide' in the Tools Menu.
 
-### ``kobo/scripts/init.sh``
+### ``kobo/init.sh``
 Called by Kobo Menu launch. Here used to turn off the Kobo front (blinking) LED. And to start ``usr/set_brightness.sh``
 if it exists (see below).
 
